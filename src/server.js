@@ -9,7 +9,7 @@ const dev = NODE_ENV === 'development';
 polka() // You can also use Express
 	.use(
 		// change this to reflect your path, @see https://sapper.svelte.dev/docs/#Base_URLs
-		'',
+		'/',
 		compression({ threshold: 0 }),
 		sirv('static', { dev }),
 		sapper.middleware()
