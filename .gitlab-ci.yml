@@ -1,0 +1,25 @@
+image: "node:lts-alpine"
+
+before_script:
+  - npm install
+
+# These folders are cached between builds
+# http://docs.gitlab.com/ce/ci/yaml/README.html#cache
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+    # Enables git-lab CI caching. Both .cache and public must be cached, otherwise builds will fail.
+    - .cache/
+    - public/
+
+pages:
+  script:
+    - mkdir public/ || true
+    - npm run export -- --basepath $CI_PROJECT_NAME
+    - cp -a __sapper__/export/$CI_PROJECT_NAME/* public/
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == "master"

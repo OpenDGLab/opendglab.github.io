@@ -1,0 +1,38 @@
+{
+  "name": "sapper-gitlab-pages",
+  "description": "Sapper/Svelte project template for GitLab Pages",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "sapper dev --hot=false",
+    "build": "sapper build",
+    "export": "sapper export",
+    "start": "node __sapper__/build",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "test": "run-p --race dev cy:run"
+  },
+  "dependencies": {
+    "compression": "^1.7.1",
+    "polka": "next",
+    "sirv": "^0.4.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "sapper": "^0.27.0",
+    "svelte": "^3.0.0",
+    "svelte-loader": "^2.9.0",
+    "webpack": "^4.7.0"
+  },
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Angelo Gulina",
+      "email": "agulina@gitlab.com",
+      "url": "https://www.gitlab.com/agulina"
+    },
+    {
+      "name": "Andrei Zubov",
+      "url": "https://gitlab.com/reflectiondm"
+    }
+  ]
+}
