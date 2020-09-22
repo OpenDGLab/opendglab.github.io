@@ -1,7 +1,3 @@
-<script>
-  import BigButton from "../components/BigButton.svelte";
-</script>
-
 <style>
   :root {
     --main-color: #FFE99D;
