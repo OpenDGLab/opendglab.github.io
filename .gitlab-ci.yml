@@ -16,8 +16,8 @@ cache:
 pages:
   script:
     - mkdir public/ || true
-    - npm run export -- --basepath $CI_PROJECT_NAME
-    - cp -a __sapper__/export/$CI_PROJECT_NAME/* public/
+    - npm run export
+    - cp -a __sapper__/export/* public/
   artifacts:
     paths:
       - public
