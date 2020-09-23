@@ -74,4 +74,17 @@
       <p class="removemargin">轻松使用您的波形</p>
     </div>
   </div>
+  <hr style="margin-top: 24px ;border-top-style: none; border-color: transparent; background-color: #FFE99D;"/>
+  <div class="col">
+    <p class="removemargin subtitle">免责协议</p>
+    <p class="removemargin">OpenDGLab 不对您使用 DG-Lab 设备发生的问题负责</p>
+    <p class="removemargin">请遵循 DG-Lab 官方推荐安全使用设备</p>
+  </div>
+  <hr style="margin-top: 24px ;border-top-style: none; border-color: transparent; background-color: #FFE99D;"/>
+  <div class="col">
+    <p class="removemargin subtitle">非盈利项目</p>
+    <p class="removemargin">目前 OpenDGLab 项目正在快速实现</p>
+    <p class="removemargin">要访问 OpenDGLab 项目 请联系项目创建者</p>
+    <p class="removemargin">或等待基础功能完成后变更为开放模式</p>
+  </div>
 </section>
