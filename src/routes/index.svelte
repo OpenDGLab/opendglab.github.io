@@ -83,8 +83,8 @@
   <hr style="margin-top: 24px ;border-top-style: none; border-color: transparent; background-color: #FFE99D;"/>
   <div class="col">
     <p class="removemargin subtitle">非盈利项目</p>
-    <p class="removemargin">目前 OpenDGLab 项目正在快速实现</p>
-    <p class="removemargin">要访问 OpenDGLab 项目 请联系项目创建者</p>
-    <p class="removemargin">或等待基础功能完成后变更为开放模式</p>
+    <p class="removemargin">本项目开发者不使用此项目盈利</p>
+    <p class="removemargin">只为能让 DG-Lab 有更多可能</p>
+    <p class="removemargin">协议库遵循 AGPL 协议开源</p>
   </div>
 </section>
