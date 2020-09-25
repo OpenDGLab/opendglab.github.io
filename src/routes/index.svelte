@@ -61,9 +61,9 @@
     <div class="col">
       <img class="smheight" alt="OpenDGLab Remote" src="OpenDGLab-Remote.svg" />
       <p class="removemargin subtitle">OpenDGLab 远程协议</p>
-      <p class="removemargin">对远程协议的说明文档</p>
-      <p class="removemargin">通过协议兼容文档</p>
-      <p class="removemargin">您可以实现原版远程通讯协议</p>
+      <p class="removemargin">原版 APP 远程协议</p>
+      <p class="removemargin">通过协议兼容</p>
+      <p class="removemargin">实现原版远程通讯协议</p>
       <p class="removemargin">与使用原始 APP 的玩家打通隔阂</p>
     </div>
     <div class="col">
