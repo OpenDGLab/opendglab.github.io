@@ -1,0 +1,38 @@
+name: Deploy to github pages
+on:
+  push:
+    branches:
+      - master
+jobs:
+  gh-pages-deploy:
+    name: Deploying to gh-pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Node.js for use with actions
+        uses: actions/setup-node@v1.1.0
+        with:
+          version:  12.x
+      - name: Checkout branch
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+      - name: Cache node_modules
+        uses: actions/cache@v1 
+        env:
+          cache-name: opendglab-web-node-modules
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('yarn.lock') }}
+      - name: Install yarn
+        run: npm install -g yarn
+      - name: Install modules
+        run: yarn install
+      - name: Build
+        run: yarn export
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@3.6.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: public 
+          CLEAN: true
