@@ -1,3 +1,7 @@
+<script>
+  import BigButton from "../components/BigButton.svelte";
+</script>
+
 <style>
   :root {
     --main-color: #FFE99D;
@@ -86,5 +90,8 @@
     <p class="removemargin">本项目开发者不使用此项目盈利</p>
     <p class="removemargin">只为能让 DG-Lab 有更多可能</p>
     <p class="removemargin">协议库遵循 AGPL 协议开源</p>
+  </div>
+  <div class="col">
+      <BigButton url="https://github.com/OpenDGLab">访问 GitHub 项目页</BigButton>
   </div>
 </section>
