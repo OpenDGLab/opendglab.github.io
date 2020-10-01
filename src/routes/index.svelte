@@ -77,6 +77,13 @@
       <p class="removemargin">导出您的自定义波形</p>
       <p class="removemargin">轻松使用您的波形</p>
     </div>
+    <div class="col">
+      <img class="smheight" alt="OpenDGLab Connect" src="OpenDGLab-Connect.svg" />
+      <p class="removemargin subtitle">OpenDGLab 连接</p>
+      <p class="removemargin">使用现代网页技术</p>
+      <p class="removemargin">部分还原原版 App 的功能</p>
+      <p class="removemargin">轻松与原版客户端交互</p>
+    </div>
   </div>
   <hr style="margin-top: 24px ;border-top-style: none; border-color: transparent; background-color: #FFE99D;"/>
   <div class="col">
