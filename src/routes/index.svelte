@@ -56,14 +56,18 @@
   </div>
   <div class="usewrap" style="align-items: baseline; justify-content: space-evenly;">
     <div class="col">
-      <img class="smheight" alt="OpenDGLab Core" src="OpenDGLab.svg" />
+      <a href="https://github.com/OpenDGLab/OpenDGLab-Core" target="_blank">
+        <img class="smheight" alt="OpenDGLab Core" src="OpenDGLab.svg" />
+      </a>
       <p class="removemargin subtitle">OpenDGLab 核心</p>
       <p class="removemargin">协议运算核心</p>
       <p class="removemargin">真正掌控您的设备</p>
       <p class="removemargin">让一切变得可能</p>
     </div>
     <div class="col">
-      <img class="smheight" alt="OpenDGLab Remote" src="OpenDGLab-Remote.svg" />
+      <a href="https://github.com/OpenDGLab/OpenDGLab-Remote" target="_blank">
+        <img class="smheight" alt="OpenDGLab Remote" src="OpenDGLab-Remote.svg" />
+      </a>
       <p class="removemargin subtitle">OpenDGLab 远程协议</p>
       <p class="removemargin">原版 APP 远程协议</p>
       <p class="removemargin">通过协议兼容</p>
@@ -71,14 +75,18 @@
       <p class="removemargin">与使用原始 APP 的玩家打通隔阂</p>
     </div>
     <div class="col">
-      <img class="smheight" alt="OpenDGLab WaveGen" src="OpenDGLab-WaveGen.svg" />
+      <a href="/OpenDGLab-WaveGen/" target="_blank">
+        <img class="smheight" alt="OpenDGLab WaveGen" src="OpenDGLab-WaveGen.svg" />
+      </a>
       <p class="removemargin subtitle">OpenDGLab 波形生成</p>
       <p class="removemargin">使用网页调整波形</p>
       <p class="removemargin">导出您的自定义波形</p>
       <p class="removemargin">轻松使用您的波形</p>
     </div>
     <div class="col">
-      <img class="smheight" alt="OpenDGLab Connect" src="OpenDGLab-Connect.svg" />
+      <a href="/OpenDGLab-Connect/" target="_blank">
+        <img class="smheight" alt="OpenDGLab Connect" src="OpenDGLab-Connect.svg" />
+      </a>
       <p class="removemargin subtitle">OpenDGLab 连接</p>
       <p class="removemargin">使用现代网页技术</p>
       <p class="removemargin">部分还原原版 App 的功能</p>
