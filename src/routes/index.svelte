@@ -92,6 +92,15 @@
       <p class="removemargin">部分还原原版 App 的功能</p>
       <p class="removemargin">轻松与原版客户端交互</p>
     </div>
+    <div class="col">
+      <a href="https://github.com/OpenDGLab/OpenDGLab-Desktop" target="_blank">
+        <img class="smheight" alt="OpenDGLab Desktop" src="OpenDGLab-Desktop.svg" />
+      </a>
+      <p class="removemargin subtitle">OpenDGLab 桌面客户端</p>
+      <p class="removemargin">多设备支持 更方便</p>
+      <p class="removemargin">开放式协议允许与其他系统接入</p>
+      <p class="removemargin">（即将到来）</p>
+    </div>
   </div>
   <hr style="margin-top: 24px ;border-top-style: none; border-color: transparent; background-color: #FFE99D;"/>
   <div class="col">
