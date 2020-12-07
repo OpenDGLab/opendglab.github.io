@@ -101,6 +101,15 @@
       <p class="removemargin">开放式协议允许与其他系统接入</p>
       <p class="removemargin">（即将到来）</p>
     </div>
+    <div class="col">
+      <a href="https://github.com/OpenDGLab/OpenDGLab-OpenProtocol" target="_blank">
+        <img class="smheight" alt="OpenDGLab 开放协议" src="OpenDGLab-OpenProtocol.svg" />
+      </a>
+      <p class="removemargin subtitle">OpenDGLab 开放协议</p>
+      <p class="removemargin">不同于原版协议的封闭</p>
+      <p class="removemargin">允许第三方程序接入</p>
+      <p class="removemargin">让您有更多的可能性</p>
+    </div>
   </div>
   <hr style="margin-top: 24px ;border-top-style: none; border-color: transparent; background-color: #FFE99D;"/>
   <div class="col">
