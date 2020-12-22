@@ -97,9 +97,9 @@
         <img class="smheight" alt="OpenDGLab Desktop" src="OpenDGLab-Desktop.svg" />
       </a>
       <p class="removemargin subtitle">OpenDGLab 桌面客户端</p>
-      <p class="removemargin">多设备支持 更方便</p>
+      <p class="removemargin">多设备支持</p>
       <p class="removemargin">开放式协议允许与其他系统接入</p>
-      <p class="removemargin">（即将到来）</p>
+      <p class="removemargin">使用电脑操作更方便</p>
     </div>
     <div class="col">
       <a href="https://github.com/OpenDGLab/OpenDGLab-OpenProtocol" target="_blank">
