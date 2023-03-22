@@ -104,7 +104,7 @@
     </div>
     <div class="col">
       <a href="https://github.com/OpenDGLab/OpenDGLab-Mobile-Android" target="_blank">
-        <img class="smheight" alt="OpenDGLab Desktop" src="OpenDGLab-Desktop.svg" />
+        <img class="smheight" alt="OpenDGLab Mobile Android" src="OpenDGLab-Mobile.svg" />
       </a>
       <p class="removemargin subtitle">OpenDGLab Android 客户端</p>
       <p class="removemargin">多设备支持</p>
