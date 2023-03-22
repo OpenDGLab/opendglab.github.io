@@ -53,6 +53,7 @@
   <div class="col">
       <p>OpenDGLab 旨在为 DG-Lab 设备提供一个开放的接入方式。</p>
       <p>让您的 DG-Lab 设备可以连接其他系统，获得更多快乐。</p>
+      <p>OpenDGLab v2 正在开发中...</p>
   </div>
   <div class="usewrap" style="align-items: baseline; justify-content: space-evenly;">
     <div class="col">
@@ -100,6 +101,15 @@
       <p class="removemargin">多设备支持</p>
       <p class="removemargin">开放式协议允许与其他系统接入</p>
       <p class="removemargin">使用电脑操作更方便</p>
+    </div>
+    <div class="col">
+      <a href="https://github.com/OpenDGLab/OpenDGLab-Mobile-Android" target="_blank">
+        <img class="smheight" alt="OpenDGLab Desktop" src="OpenDGLab-Desktop.svg" />
+      </a>
+      <p class="removemargin subtitle">OpenDGLab Android 客户端</p>
+      <p class="removemargin">多设备支持</p>
+      <p class="removemargin">开放式协议允许与其他系统接入</p>
+      <p class="removemargin">(即将到来)</p>
     </div>
     <div class="col">
       <a href="https://github.com/OpenDGLab/OpenDGLab-OpenProtocol" target="_blank">
